@@ -1,0 +1,13 @@
+# Catkin/CMake build products (including packages with in-source builds)
+build/
+devel/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled/generated files
+*.o
+*.a
+*.so
+*.pyc
+__pycache__/

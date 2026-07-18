@@ -1,0 +1,8 @@
+<launch>
+    <node name = "livox2pointcloud" pkg = "livox2pointcloud" type = "livox2pointcloud_node" output = "screen">
+        <!-- 显式配置订阅的Livox话题，不用改代码 -->
+        <param name="livox_topic" value="/scan" />
+        <!-- 显式配置发布的点云话题 -->
+        <param name="pointcloud_topic" value="/livox/pointcloud2" />
+    </node>
+</launch>
